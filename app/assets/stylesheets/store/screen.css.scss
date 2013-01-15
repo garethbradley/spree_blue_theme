@@ -279,19 +279,20 @@ a { outline: none; }
   position: relative;
 }
 body.two-col #wrapper { background-image: image_url('wrapper-back-2.png'); }
+/*
 .container {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   display: block;
-}
+}*/
 #top-nav-bar {
   width: 750px;
   margin-top: 30px;
   float: right;
 }
 #logo {
-  width: 200px;
+  width: 464px;
   display: block;
   float: left;
 }
