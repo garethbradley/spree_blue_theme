@@ -285,6 +285,7 @@ ul#products li {
     float: left;
     height: 200px;
     @include bgopacity(255,255,255,0.5);
+    margin-bottom: 20px;
 }
 
 ul#products li div.wrapper {
