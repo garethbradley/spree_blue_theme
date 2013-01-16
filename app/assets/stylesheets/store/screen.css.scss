@@ -239,6 +239,39 @@ legend {
   font-weight: bold;
   margin-bottom: 0.5em;
 }
+
+
+/************ MENU ************/
+
+ul#nav-bar {
+  line-height: 50px;
+  float: right;
+  clear: both;
+  font-size: 1.2em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul#nav-bar li {
+  float: left;
+  margin-left: 1em;
+  line-height: 50px;
+  margin-top: -15px;
+}
+ul#nav-bar li.cart-indicator a {
+  padding-right: 40px;
+  background: transparent image_url('cart-empty_x32.png') center right no-repeat;
+  display: block;
+}
+ul#nav-bar li.cart-indicator a.full { background-image: image_url('cart-full_x32.png'); }
+.pagination {
+  padding-top: 10px;
+  text-align: right;
+}
+
+
+
+
 .no_margin_or_padding {
   margin: 0;
   padding: 0;
