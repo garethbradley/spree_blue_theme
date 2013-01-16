@@ -270,6 +270,22 @@ ul#nav-bar li.cart-indicator a.full { background-image: image_url('cart-full_x32
 }
 
 
+/************ PRODUCT LISTINGS ************/
+
+ul#products {
+  float: left;
+  clear: both;
+  font-size: 1.2em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul#products li {
+    display: block;
+    float: left;
+    height: 200px;
+    @include bgopacity(255,255,255,0.5);
+}
 
 
 .no_margin_or_padding {
